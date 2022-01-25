@@ -1,0 +1,122 @@
+ git log --stat | cat
+commit b74486f3c7370eefc56d1fa149d4c600438fbab3
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 21:09:23 2022 +0200
+
+    Nimettiin file2 uudestaan
+
+ tiedostoja/{file2 => file22} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit df3cb824592a6ca0021559c3f5af222765d95ebd
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 21:08:12 2022 +0200
+
+    poistettiin file1
+
+ tiedostoja/file1 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 07716b4fc7eb4b61371b1f98a4d050f0715d4fb6
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 20:54:23 2022 +0200
+
+    uusi hakemisto ja tiedostoja lisätty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit d26b4075a9e13e4b560646bd14796e68be0ae0ad
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:53:28 2022 +0200
+
+    muokattiin tiedostoja eka ja kolmas
+
+ eka.txt    | 1 -
+ kolmas.txt | 2 ++
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 92288f67db64211de84a85f0ecbd28ee852f0c47
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:49:03 2022 +0200
+
+    Uudelleen nimettiin tekstitiedosto
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 2073a0503e08f5648b15c7ac04cd74a7f7249123
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:47:51 2022 +0200
+
+    Poistettiin tekstitiedosto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4879ab488ac62b7923094952c8ec7d615b24144d
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:43:44 2022 +0200
+
+    poistettiin tekstiä, ja sitten lisättiin
+
+ tiedosto.txt | 92 +-----------------------------------------------------------
+ 1 file changed, 1 insertion(+), 91 deletions(-)
+
+commit 9c4ac5911e626869fb5bd4d66e1a9ee926518b60
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:40:34 2022 +0200
+
+    Lisättiin tekstiä ensimmäiseen tiedostoon
+
+ tiedosto.txt | 581 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 581 insertions(+)
+
+commit af3668d2dc9aa2fe52fa4f0a0fd8eb4f1dd4221d
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:20:30 2022 +0200
+
+    lisättiin alikansio
+
+ stuff/neljas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f2f4398a0e81dbe2478028c428e17363e9e0e150
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:15:17 2022 +0200
+
+    Toista ja kolmatta tiedostoa muokattu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit e171277785780e74d095227e7d7b97a722bf29ea
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 19:12:34 2022 +0200
+
+    kolmas tiedosto lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c9fad0327719e10ede4e9322175e26e7a89ed651
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Mon Jan 24 17:16:30 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 2 ++
+ toinen.txt   | 0
+ 2 files changed, 2 insertions(+)
+
+commit 7b0912ccaae5e055084b3b1086d0693f005604a4
+Author: Tuomas Salomaki <tuomas.salomaki@student.lut.fi>
+Date:   Sun Jan 23 22:53:43 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
